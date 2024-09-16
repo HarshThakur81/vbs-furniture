@@ -15,6 +15,7 @@
     top: 90px;
     height: 280px;
     width: 390px;
+    overflow: scroll;
 }
 .contact_now{
     padding: 8px 17px;
@@ -40,6 +41,31 @@
     width: 110px;
     border-radius: 25px;
 } */
+.V{
+    font-size: calc(2rem + 2vmin);
+  }
+  
+  /* Small screens */
+  @media (max-width: 600px) {
+    .V {
+      font-size: calc(0.3rem + 1vmin);
+    }
+  }
+  
+  /* Medium screens */
+  @media (min-width: 600px) and (max-width: 1200px) {
+    .V {
+      font-size: calc(0.5rem + 0.5vmin);
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 1200px) {
+    .V {
+      font-size: calc(0.5rem + 2vmin);
+    }
+  }
+  
 .btn4{
     background: #1D3746;
     height: 30px;
@@ -92,6 +118,7 @@ height: 250px;
         top: 90px;
         height: 280px;
         width: 390px;
+        overflow: scroll;
     }
     .ctn {
         display: flex;
