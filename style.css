@@ -16,6 +16,7 @@
     height: 280px;
     width: 390px;
     overflow: scroll;
+
 }
 .contact_now{
     padding: 8px 17px;
@@ -44,7 +45,19 @@
 .V{
     font-size: calc(2rem + 2vmin);
   }
-  
+
+  @media (max-width: 575px) {
+.footer_col{
+    text-align: center;
+}
+.add_for{
+    text-align: center;
+}
+.add_new{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+  }
   /* Small screens */
   @media (max-width: 600px) {
     .V {
@@ -169,6 +182,7 @@ height: 250px;
 }
 .cls{
     overflow: scroll;
+    scrollbar-width: none;
 }
 .img1{
     height: 380px;
